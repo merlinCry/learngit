@@ -1,2 +1,16 @@
 on branch dev.
 bug fix on issue-101.
+    mobile = 15951678507;
+    status = 1;
+    "user_id" =    467550/1   pwd : 9b0e9074809b8ff9bcb4fdc2d3f36535
+    username = "";
+
+    NSString *verify_code =  [GlobalData shareInstance].mUserInfo.mVerify_code;
+    NSString *user_id     =  [GlobalData shareInstance].mUserInfo.mId;
+    if(!user_id || !verify_code) return;
+
+
+
+
+
+btanch  test
